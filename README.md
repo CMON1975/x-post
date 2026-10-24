@@ -321,3 +321,7 @@ The prompt avoids all of this: bash never sees what you type there. On the comma
 `uv run pytest`. The tests intercept all HTTP, so they never reach X, and run in scratch config and state folders, so they never touch your credentials, draft or queue.
 
 The App's icon in the Developer Console is `assets/icon.png`: Lucide's `send` (ISC) in white on slate, full bleed, with room for a circular crop. `assets/icon.svg` is the source, and a test holds its paths to those in the `icons/` folder of a Lucide clone that `LUCIDE_ICONS` names (skipped without it). After changing it: `rsvg-convert -w 1024 -h 1024 assets/icon.svg -o assets/icon.png`.
+
+## License
+
+MIT, in `LICENSE`. The icon in `assets/` is Lucide's `send`, under Lucide's ISC license, kept in `assets/LICENSE-lucide`.
