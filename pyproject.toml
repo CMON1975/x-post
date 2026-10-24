@@ -1,0 +1,31 @@
+[project]
+name = "x-post"
+version = "0.1.0"
+description = "Post to X from the command line"
+readme = "README.md"
+authors = [
+    { name = "c", email = "608276+CMON1975@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyspellchecker>=0.9.1",
+    "regex>=2026.9.29",
+    "requests>=2.34.2",
+    "requests-oauthlib>=2.0.0",
+]
+
+[project.scripts]
+x-post = "x_post:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "responses>=0.26.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
