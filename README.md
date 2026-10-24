@@ -325,3 +325,5 @@ The App's icon in the Developer Console is `assets/icon.png`: Lucide's `send` (I
 ## License
 
 MIT, in `LICENSE`. The icon in `assets/` is Lucide's `send`, under Lucide's ISC license, kept in `assets/LICENSE-lucide`.
+
+Written by CMON1975 with Claude (Anthropic), through Claude Code.
