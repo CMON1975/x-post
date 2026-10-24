@@ -11,4 +11,5 @@ CLI that posts to X via `POST https://api.x.com/2/tweets`, signed with OAuth 1.0
 - Installed with `uv tool install --editable .`; code edits are live, but dependency changes need `--reinstall`.
 
 - The repo is meant to go public, so nothing of one machine's setup goes in it: hostnames, home paths and notification routing belong in the untracked `~/.config/x-post/config.toml`, with no default in the code (decided 2026-10-23).
+- User docs: README.md is the overview (features, quick start, prices, install), and each feature's detail lives in its `docs/*.md` page. A new feature gets its detail there and, if it's one a reader would look for, a line in the README (decided 2026-10-23, after the README grew into a wall of edge cases).
 - PROCESS.md is a local journal, excluded in `.git/info/exclude`; never commit it. The history before the fresh start is kept locally as `refs/archive/full-history`; never push it.
